@@ -1,0 +1,126 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input-container {
+  width: 90%;
+  height: 40px;
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+.search-input {
+  width: 88%;
+  background-color: #f1f5f9;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #0f172a;
+  padding: 10px;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.filters-group-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  color: #12022f;
+}
+.category-item {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.category-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+.active-category {
+  color: #0967d2;
+  font-weight: 500;
+}
+
+.clear-filter-btn {
+  border: 2px solid #0967d2;
+  color: #0967d2;
+  border-radius: 10px;
+  width: 120px;
+  padding: 8px;
+  background-color: transparent;
+  margin: 20px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.rating-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.rating-item {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding-bottom: 10px;
+}
+.rating-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+  margin: 0px;
+}
+.rating-img {
+  width: 200px;
+  margin: 0px;
+}
+.active-rating {
+  color: #0967d2;
+  font-weight: 500;
+}
